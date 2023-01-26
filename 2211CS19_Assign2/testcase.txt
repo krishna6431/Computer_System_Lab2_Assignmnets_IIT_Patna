@@ -1,0 +1,41 @@
+//Testcase and Info File
+
+Note : When You Run this program first it asks for if u want to add details or you just want to query on existing database;
+       Press 1 if You want to add more details
+       Press 0 if you want to Query on existing Database
+       Rest of Instructions Follow Accordingly
+
+/*In existing Database some of the details are already present*/
+
+//Some of The Record Testset
+
+2211CS011 7 8 9 8 10
+2211CS100 8 8 7 7 6
+2211AI001 6 6 7 8 7
+2211EE099 7 7 8 8 7
+2211CE109 10 9 9 8 8
+
+//Some of Query Testset 
+S3 7 8
+S4 7 10
+S2 6 9
+
+Complexity Analysis:
+
+Lets Say N = Number of details present into database 
+writing files into database takes : O(N)
+reading files from database takes : O(N)
+Major operation is sorting Results in Worst case we need to sort all Results and we are using sort function of standard template library that takes O(NlogN) in worst case;
+for printing the results Complexity : O(N);
+
+So combining all : O(N) + O(N) + O(NlogN) + O(N)
+
+So When we take upperbound Complexity it will be O(NlogN);
+
+Space Complexity Will Be : O(N) 
+we are storing atmax N details.
+
+
+Thank You So Much
+
+
