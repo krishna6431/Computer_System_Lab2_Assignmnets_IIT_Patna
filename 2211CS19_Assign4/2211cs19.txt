@@ -1,0 +1,77 @@
+TEST CASE 1:
+Input
+	Num1 = 987976699887521321355789656362125555
+	Num2 = -13235
+Output
+	Printing List 1: 
+	8 9 87976 69988 75213 21355 78965 63621 25555
+	Printing List 2: 
+	-1 13235
+	Printing Result List:
+	8 9 87976 69988 75213 21355 78965 63621 12320
+	***Printing Final Result***
+	987976699887521321355789656362112320
+	Program Executed Successfully
+
+TEST CASE 2:
+Input
+	Num1 = 998875
+	Num 2 = -12356
+
+Output
+	Printing List 1: 
+	2 9 98875
+	Printing List 2: 
+	-1 12356
+	Printing Result List:
+	2 9 86519
+	***Printing Final Result***
+	986519
+	Program Executed Successfully
+
+TEST CASE 3:
+Input
+	Num1 = -1239685
+	Num2 = -789456123
+Output
+	Printing List 1: 
+	-2 12 39685
+	Printing List 2: 
+	-2 7894 56123
+	Printing Result List:
+	-2 7906 95808
+	***Printing Final Result***
+	-790695808
+	Program Executed Successfully
+
+TEST CASE 4:
+Input
+	Num1 = 9999999
+	Num2 = 1111999
+Output
+	Printing List 1: 
+	2 99 99999
+	Printing List 2: 
+	2 11 11999
+	Printing Result List:
+	2 111 11998
+	***Printing Final Result***
+	11111998
+	Program Executed Successfully
+	
+TEST CASE 5:
+Input
+	Num1 = -1
+	Num2 = 9
+
+Output
+	Printing List 1: 
+	-1 1
+	Printing List 2: 
+	1 9
+	Printing Result List:
+	1 8
+	***Printing Final Result***
+	8
+	Program Executed Successfully
+//Thank You SO Much
