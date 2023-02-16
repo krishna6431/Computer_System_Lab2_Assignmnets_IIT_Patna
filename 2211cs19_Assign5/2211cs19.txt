@@ -1,0 +1,76 @@
+Testcases:
+
+Testcase 1:
+    Input : 345,278,1,#,511,6,#
+    Output :  
+	Input List A: [345,278,1]
+	Input List B: [511,6]
+	Sorted List A: [1,278,345]
+	Sorted List B: [6,511]
+	Merged Sorted List A: [1,6,278,345,511]
+
+Testcase 2:
+    Input : 4,2,1,#,3,4,1,#
+    Output :  
+	Input List A: [4,2,1]
+	Input List B: [3,4,1]
+	Sorted List A: [1,2,4]
+	Sorted List B: [1,3,4]
+	Merged Sorted List A: [1,1,2,3,4,4]
+	
+Testcase 3:
+    Input : #,0,#
+    Output :  
+	Input List A: []
+	Input List B: [0]
+	Sorted List A: []
+	Sorted List B: [0]
+	Merged Sorted List A: [0]	
+
+Testcase 4: #,#
+    Input : 345,278,1,#,511,6,#
+    Output :  
+	Input List A: []
+	Input List B: []
+	Sorted List A: []
+	Sorted List B: []
+	Merged Sorted List A: []
+
+Testcase 5:
+    Input : 5,4,0,#,1,2,3,#
+    Output :  
+	Input List A: [5,4,0]
+	Input List B: [1,2,3]
+	Sorted List A: [0,4,5]
+	Sorted List B: [1,2,3]
+	Merged Sorted List A: [0,1,2,3,4,5]
+
+Testcase 6:
+    Input : 0,#,#
+    Output :  
+	Input List A: [0]
+	Input List B: []
+	Sorted List A: [0]
+	Sorted List B: []
+	Merged Sorted List A: [0]
+	
+Time Complpexity :
+
+Here's an explanation of the time complexity of each function:
+
+sortedLinkedListMergeRecursive(): This function takes two linked lists as inputs and merges them into a single sorted linked list. The time complexity of this function is O(n+m), where n is the number of elements in the linked list A and m is no of Node is Linked List B.
+
+findMiddle(): This function takes a linked list as input and finds its middle element. The time complexity of this function is O(n), where n is the number of elements in the linked list, because we traverse the linked list using two pointers, one moving at double the speed of the other, so the time complexity is proportional to the number of elements in the linked list.
+
+mergeSortLinkedListRecursive(): This function takes a linked list as input and sorts it using the merge sort algorithm. The time complexity of this function is O(nlog(n)), where n is the number of elements in the linked list. This is because we use the divide-and-conquer approach where we split the linked list into two halves and sort them recursively, which takes log(n) time, and then merge the sorted halves, which takes n time.
+
+createLinkedList(): This function takes a linked list and an integer as inputs and adds the integer as a new node to the end of the linked list. The time complexity of this function is O(n), where n is the number of elements in the linked list, because for each element in the linked list, we traverse the linked list only once.
+
+getLists(): This function takes a string as input and creates two linked lists from the input. The time complexity of this function is O(n), where n is the length of the input string, because for each character in the input string, we process it only once.
+
+printList(): This function takes a linked list as input and prints its elements. The time complexity of this function is O(n), where n is the number of elements in the linked list, because for each element in the linked list, we print it only once.
+
+
+
+So Overall Complexity : O(n+m) + O(n) + O(Nlog(N)) + O(N) + O(N) + O(n) 
+so asymptotically the program takes O(Nlog(N) after taking consideration of all Function.
