@@ -1,0 +1,24 @@
+Input Tree
+*************
+297 1 1
+319 0 1
+124 1 1
+282 0 0
+530 1 1
+424 0 0
+287 1 1
+214 0 0
+471 0 0
+376 0 1
+173 0 0
+*************
+Binary tree constructed successfully!
+
+Printing preOrder Traversal
+297 319 282 124 530 287 471 376 173 214 424 
+
+Printing inOrder Traversal
+319 282 297 471 287 376 173 530 214 124 424 
+
+Printing postOrder Traversal
+282 319 471 173 376 287 214 530 424 124 297 
