@@ -1,0 +1,3 @@
+Number of Strongly Connected Component: 4
+Printing Maximal Strongly Connected Component
+Component 1 : 1 3 2 4 
